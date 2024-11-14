@@ -39,3 +39,7 @@ Add support for more mathematical functions (trigonometry, logarithms, etc.)
 Implement error handling for invalid expressions.
 Improve the user interface with a more visually appealing design.
 I hope you find this calculator application useful!
+
+Coding Languages and Modules
+Python
+tkinter
