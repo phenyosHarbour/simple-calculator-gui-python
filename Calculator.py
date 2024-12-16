@@ -38,6 +38,14 @@ def button_click(value):
             entry.insert(tk.END, "Error")
     elif value == "⌫":
         entry.delete(len(entry.get()) - 1, tk.END)
+    elif value == "%":
+        try:
+            result = float(entry.get()) / 100
+            entry.delete(0, tk.END)
+            entry.insert(tk.END, str(result))
+        except Exception:
+            entry.delete(0, tk.END)
+            entry.insert(tk.END, "Error")
     else:
         entry.insert(tk.END, value)
 
@@ -74,6 +82,7 @@ buttons = [
     "C",
     "√",
     "^",
+    "%",
     "⌫",
 ]
 
