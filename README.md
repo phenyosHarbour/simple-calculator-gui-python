@@ -30,3 +30,8 @@ To install and run the application on your system:
    ```bash
    git clone https://github.com/phenyosHarbour/simple-calculator-gui-python.git
    cd simple-calculator-gui-python
+
+## Author
+
+Developed by **Phenyo Ananias Hlone**  
+GitHub: [phenyosHarbour](https://github.com/phenyosHarbour)
