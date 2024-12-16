@@ -1,2 +1,27 @@
-# Auto detect text files and perform LF normalization
+# Auto-detect text files and normalize line endings
 * text=auto
+
+# Explicitly classify programming languages
+*.py linguist-language=Python
+*.html linguist-language=HTML
+*.txt linguist-language=Text
+*.md linguist-language=Markdown
+*.spec linguist-language=Python
+
+# Exclude generated and binary files from language statistics
+*.pyc linguist-generated
+*.pkg linguist-generated
+*.zip linguist-generated
+*.exe linguist-generated
+*.toc linguist-generated
+*.pyz linguist-generated
+build/** linguist-generated
+localpycs/** linguist-generated
+
+# Documentation
+README.md linguist-language=Markdown
+xref-calculator.html linguist-generated
+
+# Ignore hidden system files
+*.DS_Store linguist-generated
+Thumbs.db linguist-generated
