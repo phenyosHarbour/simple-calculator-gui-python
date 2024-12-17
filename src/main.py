@@ -1,14 +1,9 @@
-from gui import CalculatorGUI
+from src.gui import CalculatorApp
 
 
 def main():
-    """
-    Main function to run the calculator application.
-    """
-    app = CalculatorGUI()
-    app.run()
+    app = CalculatorApp()
+    app.mainloop()
 
 
-if __name__ == "__main__":
-    main()
-# This is the main entry point for the calculator application.
+main()
