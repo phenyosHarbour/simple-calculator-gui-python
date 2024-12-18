@@ -1,9 +1,5 @@
 from src.gui import CalculatorApp
 
-
-def main():
+if __name__ == "__main__":
     app = CalculatorApp()
-    app.mainloop()
-
-
-main()
+    app.run()

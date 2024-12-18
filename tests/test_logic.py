@@ -1,5 +1,5 @@
-import unittest
 from src.logic import evaluate_expression
+import unittest
 
 
 class TestLogic(unittest.TestCase):
