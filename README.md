@@ -1,85 +1,66 @@
-Phenyosharbour Calculator - Python GUI Calculator
+# Simple Calculator GUI (Python)
 
-This is a simple and user-friendly graphical calculator application written in Python using the tkinter library.
+A simple, user-friendly calculator application built with Python. This project provides a graphical user interface (GUI) for performing basic arithmetic operations such as addition, subtraction, multiplication, and division. Ideal for Python beginners who want to learn about GUI programming and basic application structure.
 
-Features
+## Features
 
-Basic Operations: Addition (+), Subtraction (-), Multiplication (*), Division (/)
+- Intuitive graphical interface
+- Supports addition, subtraction, multiplication, and division
+- Input validation for common errors (e.g., division by zero)
+- Clear and reset functions
+- Lightweight and easy to use
 
-Advanced Operations:
 
-Square Root (√)
+## Getting Started
 
-Exponentiation (^)
+### Prerequisites
 
-Percentage (%)
+- Python 3.x
+- Tkinter (usually included with Python standard library)
 
-Error Handling: Handles invalid expressions with user-friendly error messages.
+### Installation
 
-Clear and Backspace:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/phenyosHarbour/simple-calculator-gui-python.git
+   cd simple-calculator-gui-python
+   ```
 
-C: Clear the entire input field.
+2. **Run the calculator:**
+   ```bash
+   python calculator.py
+   ```
+   *Or replace `calculator.py` with the main script filename if different.*
 
-⌫: Delete the last character entered.
+## Usage
 
-Supports Decimal Numbers: Input and calculate with decimal precision.
+1. Enter numbers using the GUI buttons or your keyboard.
+2. Select an operation (+, -, ×, ÷).
+3. Press `=` to view the result.
+4. Use `C` or `Clear` button to reset the input.
 
-Responsive Design: Clean and interactive user interface for smooth usage.
+## Project Structure
 
-Coding Languages and Modules
+```
+simple-calculator-gui-python/
+│
+├── calculator.py       # Main application file
+├── README.md           # Project documentation
+├── requirements.txt    # (Optional) Dependencies
+└── ...                 # Other files and resources
+```
 
-Python: Core language used for logic and functionality.
+## Contributing
 
-tkinter: Standard Python library used to create the graphical user interface (GUI).
+Contributions are welcome! Please open an issue or submit a pull request with your improvements or bug fixes.
 
-Requirements
 
-Python 3.12 or higher
 
-tkinter (bundled with Python)
+## Author
 
-Installation
+Created by [phenyosHarbour](https://github.com/phenyosHarbour)
 
-To install and run the application on your system:
+## Acknowledgements
 
-Clone the Repository:
-
-git clone https://github.com/phenyosHarbour/simple-calculator-gui-python.git
-cd simple-calculator-gui-python
-
-Run the Calculator:
-Execute the program using the Python command:
-
-python Calculator.py
-
-Usage
-
-Enter numbers and mathematical operations using the on-screen buttons.
-
-Click = to evaluate the expression and display the result.
-
-Use C to clear the input field and ⌫ to delete a single character.
-
-Perform advanced calculations like square root, exponentiation, and percentage.
-
-Improvements
-
-Implemented robust error handling for invalid expressions.
-
-Enhanced user interface for better visual appeal.
-
-Added advanced mathematical functions like percentage and square root.
-
-Future Enhancements
-
-Add support for trigonometric and logarithmic functions.
-
-Implement a more visually appealing design.
-
-Author
-
-Developed by Phenyo Ananias HloneGitHub: phenyosHarbour
-
-Disclaimer
-
-This calculator is designed for basic and intermediate mathematical calculations. Complex expressions may not be supported.
+- Python community for tutorials and documentation
+- [Tkinter](https://docs.python.org/3/library/tkinter.html) for the GUI framework
